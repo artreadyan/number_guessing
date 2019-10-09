@@ -7,10 +7,7 @@ def generate_number():
 
 def input_number():
     guess_input = input("Guess the number! Input: ")
-    if guess_input.isdigit():
-        return guess_input
-    else:
-        raise TypeError("Input must be integer")
+    return guess_input
 
 def start_again():
     guess_again = input("Guess again? (y/n) ")
